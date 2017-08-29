@@ -10,8 +10,7 @@ use Krdinesh\Laravel\OAuth2\SmartRecruiters\SmartRecruitersServiceProvider;
 
 class SmartRecruitersTestCase extends TestCase 
 {
-    protected function getEnvironmentSetUp($app)
-    {
+    protected function getEnvironmentSetUp($app){
         // Setup default database to use sqlite :memory:
         $app['config']->set('smartrecruiters.clientId', 'XXXXXXXXX');
         $app['config']->set('smartrecruiters.clientSecret','XXXXXXXXXXX');

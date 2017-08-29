@@ -12,24 +12,23 @@
  * @link https://github.com/krdinesh/laravel-oauth2-smartrecruiters GitHub
  */
 
-namespace Krdinesh\Laravel\OAuth2\SmartRecuriters\Facades;
+namespace Krdinesh\Laravel\OAuth2\SmartRecruiters\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Krdinesh\OAuth2\Client\Provider\SmartRecuriters as KrSmartRecuriters;
+use Krdinesh\OAuth2\Client\Provider\SmartRecruitersProvider as KrSmartRecruiters;
 
 /**
- * Provides a static accessor to the SmartRecuritersServiceProvider through
+ * Provides a static accessor to the SmartRecruitersServiceProvider through
  * a named alias in Laravel
  */
-class SmartRecuriters extends Facade {
+class SmartRecruiters extends Facade {
 
     /**
      * Get the registered name of the component.
-     *
      * @return string
      */
     protected static function getFacadeAccessor() {
-        return KrSmartRecuriters::class;
+        return KrSmartRecruiters::class;
     }
 
 }
