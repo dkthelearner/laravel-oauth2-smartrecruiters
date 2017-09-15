@@ -15,7 +15,7 @@
 namespace Krdinesh\Laravel\OAuth2\SmartRecruiters;
 
 use Illuminate\Support\ServiceProvider;
-use Krdinesh\OAuth2\Client\Provider\SmartRecruiters as KrSmartRecruiters;
+use Krdinesh\OAuth2\Client\Provider\SmartRecruitersProvider as KrSmartRecruiters;
 
 /**
  * The SmartRecruitersServiceProvider provides easy access to league/oauth2-smartrecruiters

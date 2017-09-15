@@ -1,5 +1,5 @@
 {
-    "name": "krdinesh/laravel-oauth2-smartRecruiters",
+    "name": "krdinesh/laravel-oauth2-smartrecruiters",
     "description": "A Laravel 5.2 service provider for league/oauth2-smartRecruiters",
     "type": "library",
     "authors": [
@@ -13,7 +13,7 @@
     "require": {
         "php": "^5.5.9",
         "illuminate/support": "^5.2",
-        "krdinesh/oauth2-smartRecruiters": "dev-develop"
+        "krdinesh/oauth2-smartrecuriter": "dev-develop"
     },
     "require-dev": {
         "orchestra/testbench": "^3.2",
