@@ -13,12 +13,12 @@ return [
       | `config/smartrecruiters.php` or add them as the following environment
       | variables to your local `.env` file.
       |
-      | * SMARTRECRUITERS_CLIENT_ID
-      | * SMARTRECRUITERS_CLIENT_SECRET
-      | * SMARTRECRUITERS_REDIRECT_URI
+      | * SMARTRECRUITER_CLIENT_ID
+      | * SMARTRECRUITER_CLIENT_SECRET
+      | * SMARTRECRUITER_REDIRECT_URI
       |
      */
-    'clientId'     => env('SMARTRECRUITERS_CLIENT_ID'),
-    'clientSecret' => env('SMARTRECRUITERS_CLIENT_SECRET'),
-    'redirectUri'  => env('SMARTRECRUITERS_REDIRECT_URI'),
+    'clientId'     => env('SMARTRECRUITER_CLIENT_ID'),
+    'clientSecret' => env('SMARTRECRUITER_CLIENT_SECRET'),
+    'redirectUri'  => env('SMARTRECRUITER_REDIRECT_URI'),
 ];
