@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "57194bd1299f6d257293dd507a1e399a",
+    "content-hash": "57042278e508f26e1531fb9802be3eea",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -298,16 +298,16 @@
         },
         {
             "name": "krdinesh/oauth2-smartrecuriter",
-            "version": "dev-develop",
+            "version": "v1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/krdinesh/oauth2-smartrecruiters.git",
-                "reference": "0b91b315ff429ba46b8a92718250708dd500de6d"
+                "reference": "f98da7206305cebd7e8e453a8df1c4437e163cfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/krdinesh/oauth2-smartrecruiters/zipball/0b91b315ff429ba46b8a92718250708dd500de6d",
-                "reference": "0b91b315ff429ba46b8a92718250708dd500de6d",
+                "url": "https://api.github.com/repos/krdinesh/oauth2-smartrecruiters/zipball/f98da7206305cebd7e8e453a8df1c4437e163cfd",
+                "reference": "f98da7206305cebd7e8e453a8df1c4437e163cfd",
                 "shasum": ""
             },
             "require": {
@@ -343,7 +343,7 @@
                 "oauth2",
                 "smartrecruiters"
             ],
-            "time": "2017-08-29 09:13:14"
+            "time": "2017-09-15T07:23:32+00:00"
         },
         {
             "name": "laravel/framework",
@@ -3858,9 +3858,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "krdinesh/oauth2-smartrecuriter": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
