@@ -1,5 +1,5 @@
 {
-    "name": "krdinesh/laravel-oauth2-smartRecruiters",
+    "name": "krdinesh/laravel-oauth2-smartrecruiters",
     "description": "A Laravel 5.2 service provider for league/oauth2-smartRecruiters",
     "type": "library",
     "authors": [
