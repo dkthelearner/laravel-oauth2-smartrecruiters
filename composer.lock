@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "57042278e508f26e1531fb9802be3eea",
+    "content-hash": "76ba9305f31a0bf773f58ae6a3a658ed",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -297,17 +297,17 @@
             "time": "2017-03-20T17:10:46+00:00"
         },
         {
-            "name": "krdinesh/oauth2-smartrecuriter",
-            "version": "v1.1",
+            "name": "krdinesh/oauth2-smartrecruiters",
+            "version": "v1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/krdinesh/oauth2-smartrecruiters.git",
-                "reference": "f98da7206305cebd7e8e453a8df1c4437e163cfd"
+                "reference": "592f3a61e3e1e4cdae7084ed66c5b95a68b0df2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/krdinesh/oauth2-smartrecruiters/zipball/f98da7206305cebd7e8e453a8df1c4437e163cfd",
-                "reference": "f98da7206305cebd7e8e453a8df1c4437e163cfd",
+                "url": "https://api.github.com/repos/krdinesh/oauth2-smartrecruiters/zipball/592f3a61e3e1e4cdae7084ed66c5b95a68b0df2c",
+                "reference": "592f3a61e3e1e4cdae7084ed66c5b95a68b0df2c",
                 "shasum": ""
             },
             "require": {
@@ -343,7 +343,7 @@
                 "oauth2",
                 "smartrecruiters"
             ],
-            "time": "2017-09-15T07:23:32+00:00"
+            "time": "2017-09-15T07:46:28+00:00"
         },
         {
             "name": "laravel/framework",
