@@ -21,14 +21,15 @@ use Krdinesh\OAuth2\Client\Provider\SmartRecruitersProvider as KrSmartRecruiters
  * Provides a static accessor to the SmartRecruitersServiceProvider through
  * a named alias in Laravel
  */
-class SmartRecruiters extends Facade {
+class SmartRecruiters extends Facade
+{
 
     /**
      * Get the registered name of the component.
      * @return string
      */
-    protected static function getFacadeAccessor() {
+    protected static function getFacadeAccessor()
+    {
         return KrSmartRecruiters::class;
     }
-
 }
